@@ -1,0 +1,238 @@
+</html>
+
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>~~Part~~</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    
+</head>
+
+<body>
+
+    <div class="header" id="myHeader">
+
+        <table class="table">
+            <td class="tdLeft">
+                <div class="dropdown">
+                    <span><img class="menuButton" src="/DATA/IMG/menubutton.png" alt="miafene?"></span>
+                    <div class="dropdown-content">
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><a class="a" ; href="/index.html">főoldal</a>
+                                    <td>
+                                </tr>
+                                <tr>
+                                    <td><a class="a" ; href="/PAGES/menu.html">étlap</a>
+                                    <td>
+                                </tr>
+                                <tr>
+                                    <td><a class="a" ; href="/PAGES/drinks.html">itallap</a>
+                                    <td>
+                                </tr>
+                                <tr>
+                                    <td><a class="a" ; href="/PAGES/order_form.html">rendelés</a>
+                                    <td>
+                                </tr>
+                                <tr>
+                                    <td><a class="a" ; href="/PAGES/about.html">nyitvatartás</a>
+                                    <td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </td>
+            <td class="tdRight">
+                <h1 class="hull">~~<span class="part">Part</span>~~</h1>
+            </td>
+        </table>
+
+    </div>
+    <p class="h1"> Rendelés </p>
+<div>
+    <div class="priceTable">
+        <table>
+            <tr>
+                <td class="totalPriceCntr">ár: 
+                    <span class="totalPrice">0</span> .-</td>
+            </tr>
+            <tr>
+                
+                <td><input onclick="calcAmount()" type="button" value="rendelés leadása"></td>
+                <input name="quantity" type="number" min="1" max="10" placeholder="0 db">
+           
+            </tr>
+        </table>
+    </div>>
+    <div>
+        <table class="orderTable">
+            <thead>
+                <tr>
+                    <th>burgerek</th>
+                </tr>
+                <tr>
+                    <td class="orderBorder">retro</td>
+                    <td class="orderBorder">saláta, paradicsom, hagyma, szószok</td>
+                    <td class="orderBorder">1300.-</td>
+                    <td><input type="checkbox" name="foodType" value="1300"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">cheddar</td>
+                    <td class="orderBorder">saláta, paradicsom, hagyma, cheddar, szószok</td>
+                    <td class="orderBorder">1600.-</td>
+                    <td><input type="checkbox" name="foodType" value="1600"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">csípő</td>
+                    <td class="orderBorder">saláta, paradicsom, hagyma, csípős jalapeño, szószok</td>
+                    <td class="orderBorder">1900.-</td>
+                    <td><input type="checkbox" name="foodType" value="1900"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">cheesy & hot</td>
+                    <td class="orderBorder">saláta, paradicsom, hagyma, csípős jalapeño, cheddar, szószok</td>
+                    <td class="orderBorder">2100.-</td>
+                    <td><input type="checkbox" name="foodType" value="2100"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                <tr>
+                    <th>köretek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="orderBorder">sülrumli</td>
+                    <td class="orderBorder">kérheted fűszeresen, olajban sült krumpli</td>
+                    <td class="orderBorder">550.-</td>
+                    <td><input type="checkbox" name="foodType" value="550"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">tepsis</td>
+                    <td class="orderBorder">zsírban, tepsiben sült krumpli</td>
+                    <td class="orderBorder">550.-</td>
+                    <td><input type="checkbox" name="foodType" value="550"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">eleség</td>
+                    <td class="orderBorder">majonézes kukorica</td>
+                    <td class="orderBorder">650.-</td>
+                    <td><input type="checkbox" name="foodType" value="650"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>finomságok</th>
+                </tr>
+                </thead>
+            <tbody>
+                <tr>
+                    <td class="orderBorder">almás</td>
+                    <td class="orderBorder">házi almáspite, omlós és örökre hiányozni fog</td>
+                    <td class="orderBorder">850.-</td>
+                    <td><input type="checkbox" name="foodType" value="850"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+                <tr>
+                    <td class="orderBorder">a csalafinta</td>
+                    <td class="orderBorder">palacsinta, a jól bevált ízekkel</td>
+                    <td class="orderBorder">650.-</td>
+                    <td><input type="checkbox" name="foodType" value="650"></td>
+                    <td><input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="0 db">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div>
+        <form class="order_form">
+            <fieldset class="fieldSet">
+                <legend>megrendelés adatok</legend>
+                <div>
+                    <input checked id="nothing" type="radio" name="extra" value="0">
+                    <label for="nothing">nem kérek extra feltétet a burgerbe</label>
+                </div>
+                <div>
+                    <input checked id="double meat" type="radio" name="extra" value="800">
+                    <label for="double meat">dupla husi</label>
+                </div>
+                <div>
+                    <input checked id="double cheese" type="radio" name="extra" value="600">
+                    <label for="double meat">dupla sajt</label>
+                </div>
+                <div>
+                    <input checked id="jalapeño" type="radio" name="extra" value="400">
+                    <label for="jalapeño">csípős jalapeño</label>
+                </div>
+                <div>
+                    <label for="sauce">szósz</label>
+                    <select id="sauce" name="sauce">
+                        <option value="300">mustár</option>
+                        <option value="300">ketchup</option>
+                        <option value="0">nem kérek</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="quantity">mennyiség</label>
+                    <input id="quantity" name="quantity" type="number" min="1" max="10" placeholder="darab">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div>
+        <form class="order_form">
+            <fieldset class="fieldSet">
+                <legend>megrendelő adatai</legend>
+                <div>
+                    <label for="name">* név:</label>
+                    <input id="name" name="name" type="text" placeholder="név" required>
+                </div>
+                <div>
+                    <label for="email">* e-mail:</label>
+                    <input id="email" name="email" type="email" placeholder="mail cím" required>
+                </div>
+                <div>
+                    <label for="address">* cím:</label>
+                    <input id="address" name="address" type="text" placeholder="kézbesítési cím" required>
+                </div>
+                <div>
+                    <label for="telephone">* telefonszám:</label>
+                    <input id="telephone" name="telephone" type="tel" placeholder="+36-**-***-****" required>
+                </div>
+                <div>
+                    <label for="comment">megjegyzés:</label>
+                    <textarea id="comment" name="comment" type="text" rows="5"
+                        placeholder="kaputelefon/egyéb kérés/bármi komment..."></textarea>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+    
+    <div>
+        <footer class="footer">
+            <img class="footer" src="/DATA/IMG/footer2.jpg" alt="oh,ne!">
+        </footer>
+    </div>
+    <script src="/main.js">0</script>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+@font-face {
+    font-family: "allison";
+    src: url(/DATA/FONT/Allison-Regular.ttf);
+    }
+@font-face {
+    font-family:"indie";
+    src: url(/DATA/FONT/IndieFlower-Regular.ttf);
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+      }
+
+
+body {
+    background-image: url(/DATA/IMG); 
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    z-index: -1900;
+}
+
+.part {
+    font-family: 'Allison', cursive;
+    font-size: 90px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:rgb(68, 144, 231);
+    display: inline-block;
+}
+
+.hull {
+    color:rgb(68, 144, 231);
+    font-size: 50px;    
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+        }
+
+.table {
+     width: 100%;
+     z-index: 550;
+     }
+
+.tdLeft {
+    width: 50%;
+ 
+}
+
+.tdRight {
+    width: 50%;
+    text-align: right;
+    padding-right: 30px;
+    
+}
+
+
+.menuButton {
+    width: 10%;
+    display: inline-block;
+    z-index: 550;
+}
+
+.dropdown {
+    position: relative;
+    margin-left: 30px;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9 0,9;
+    text-align: center;
+    width: fit-content;
+    box-shadow: 0px 0px 2px 5px rgba(201, 201, 201, 0.2);
+    margin-left: 30px;
+    padding: 12px 16px;
+    z-index: 500;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    
+    
+  }
+  .contentHead {
+    max-width: 70%;
+    margin-top: 5px;
+    padding-top: 30px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 10px;
+    text-align: justify;
+    font-size: 25px;
+    font-family: "indie";
+  }
+  .content {
+      padding-top: 10px;
+      min-width: 60%;
+      max-width: 70%;
+      margin-right: 15%;
+      margin-left: 15%;
+      padding-bottom: 10px;
+      text-align: justify;
+      font-size: 25px;
+      font-family: "indie";
+  }
+
+  .a {
+       text-decoration: none;
+       color: rgb(133, 133, 133);
+       border: 0px rgb(199, 199, 199);
+       padding: 1%     
+  }
+
+  .h1 {
+      margin-top: 40px;
+      margin-bottom: 5px;
+      padding-top: 50px;
+      padding-left: 225px;
+      padding-bottom: 20px;
+      font-family: "indie";
+      font-size: 120px;
+  }
+    .h2 {
+        font-size: 8em;
+        color: darkgoldenrod;
+        margin-top: 150px;
+        margin-bottom: 5px;
+        margin-left: 10%;
+        width: 20%
+    }
+  
+  .h1small {
+      margin-top: 100px;
+      padding-top: 50px;
+      padding-left: 225px;
+      padding-bottom: 30px;
+      font-family: "indie";
+      font-size: 50px;
+  }
+
+  .footer {
+      
+      width: 100%;
+      filter:blur(8px);
+      opacity: (0,1);
+      z-index: 1;    
+    }
+
+    .table1 {
+        display: inline-block;
+        font-family: "indie";
+        margin-left: 10%;
+        
+       
+      }
+
+
+    .tHead {
+        height:100px;
+        font-family: "indie";
+        font-size: 40px;
+        text-align: left;
+    }
+
+    .tabledataA {
+        font-weight: 500;
+        text-align: center;
+        font-size: 45px;
+        border-bottom-style: dotted;
+        border-collapse: collapse;
+        padding-left: 30px;
+    }
+
+    .tabledataB {
+        text-align: left;
+        font-size: 20px;
+        border-bottom-style: dotted;
+        border-collapse: collapse;
+        padding-left: 30px;
+        }
+
+    .tabledataC {
+        font-size: 45;
+        font-weight: 900;
+        text-align: right;
+        border-bottom-style: dotted;
+        border-collapse: collapse;
+        padding-left: 30px;
+    }
+
+    .tFoot {
+        text-align: left;
+        font-size: 10px;
+    }
+
+    .tabledataAnoborder {
+        font-weight: 500;
+        text-align: right;
+        font-size: 45px;
+        border-bottom-style: none;
+        border-collapse: collapse;
+        padding-left: 30px;
+    }
+
+    .tabledataBnoborder {
+        text-align: left;
+        font-size: 20px;
+        border-bottom-style: none;
+        border-collapse: collapse;
+        padding-left: 30px;
+        }
+
+    .tabledataCnoborder {
+        font-size: 45;
+        font-weight: 900;
+        text-align: center;
+        border-bottom-style: none;
+        border-collapse: collapse;
+        padding-left: 80px;
+    }
+
+    .Gmap {
+        display: inline-block;
+        margin-left: 28%;
+        margin-bottom: 30px;
+    }
+
+    .order_form {
+        font-family:"indie";
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 25%;
+        margin-bottom: auto;
+        width: 40%;
+        z-index: 999;
+        position: relative;
+        
+    }
+
+    .fieldSet {
+        border-style: dotted;
+        border-color: rgb(68, 144, 231);
+    }
+
+    .footer {
+        margin-top: 30px;
+    }
+
+    .orderTable {
+        position: relative;
+        display: inline-block;
+        margin-left: 15%;
+        margin-right: auto;
+        border: none;
+        z-index: 999;
+    }
+
+    .priceTable {
+        display: table;
+        position:sticky;
+        left:100%;
+        top: 50%;
+        margin-right: 7%;
+        padding: 15px;
+        z-index: 999;
+        border: solid 1px;
+        border-color: rgb(68, 144, 231);
+        align-content: center;
+                       
+        }
+
+        .totalPriceCntr {
+            text-align: center;
+        }
+
+        .totalPrice {
+            text-align: center;
+        }
+
+    .orderBorder {
+        border-collapse: collapse;
+        border-bottom-style: dotted;
+        border-color: rgb(68, 144, 231);
+    }
+
+    
+
+ 
